@@ -1,5 +1,38 @@
 # OR-Tools CMake Build Instructions
 
+| OS     | C++ | Python | Java | .NET |
+|:-------|-----|--------|------|------|
+| Linux  |     |        |      |      |
+| macOS  |     |        |      |      |
+| Windows|     |        |      |      |
+
+[![Build Status][github_cpp_linux_status]][github_cpp_linux_link]
+[![Build Status][github_python_linux_status]][github_python_linux_link]
+[![Build Status][github_java_linux_status]][github_java_linux_link]
+[![Build Status][github_dotnet_linux_status]][github_dotnet_linux_link]
+
+[![Build Status][github_cpp_macos_status]][github_cpp_macos_link]
+[![Build Status][github_python_macos_status]][github_python_macos_link]
+[![Build Status][github_java_macos_status]][github_java_macos_link]
+[![Build Status][github_dotnet_macos_status]][github_dotnet_macos_link]
+
+[![Build Status][github_cpp_windows_status]][github_cpp_windows_link]
+[![Build Status][github_python_windows_status]][github_python_windows_link]
+[![Build Status][github_java_windows_status]][github_java_windows_link]
+[![Build Status][github_dotnet_windows_status]][github_dotnet_windows_link]
+
+[github_cpp_linux_status]: https://github.com/google/or-tools/workflows/C++%20Linux%20CI/badge.svg
+[github_cpp_linux_link]: https://github.com/google/or-tools/actions
+
+[github_python_linux_status]: https://github.com/google/or-tools/workflows/Python%20Linux%20CI/badge.svg
+[github_python_linux_link]: https://github.com/google/or-tools/actions
+
+[github_java_linux_status]: https://github.com/google/or-tools/workflows/Java%20Linux%20CI/badge.svg
+[github_java_linux_link]: https://github.com/google/or-tools/actions
+
+[github_dotnet_linux_status]: https://github.com/google/or-tools/workflows/.Net%20Linux%20CI/badge.svg
+[github_dotnet_linux_link]: https://github.com/google/or-tools/actions
+
 OR-Tools comes with a CMake build script ([CMakeLists.txt](../CMakeLists.txt))
 that can be used on a wide range of platforms (the "C" stands for
 cross-platform). If you don't have CMake installed already, you can download it
